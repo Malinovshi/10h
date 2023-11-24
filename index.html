@@ -21,7 +21,11 @@
 		margin:1;
 	}
 	img{
-		filter:grayscale(20%);
+		animation: my-animation 2s infinite alternate;
+	}
+	@keyframes my-animation{
+		from{filter:grayscale(0%);}
+		to{filter:grauscale(100%);}
 	}
 </style>
 <link rel="stylesheet" href="style.css">
