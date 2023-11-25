@@ -4,7 +4,6 @@
 img{
     height:250px;
     width:250px;
-    animation: my-animation 2s infinite alternate;
 }
 .br{
     opacity:0.5;
@@ -23,10 +22,6 @@ h1{
 div {
 	padding:1;
 	margin:1;
-}
-@keyframes my-animation{
-	from{filter:grayscale(0%);}
-	to{filter:grauscale(100%);}
 }
 ul{
 	list-style:square;
